@@ -220,14 +220,18 @@ form.results-container fieldset input {
   -webkit-transition: 0.5s;
   outline: none;
 }
+form.results-container fieldset input {
+  font-family: Quicksand;
+  color: #696d6a;
+}
 form.results-container fieldset input[type="text"]:focus {
   border: 2px solid var(--primary-color);
 }
 form.results-container fieldset input[type="text"]:hover {
   border: 2px solid var(--primary-color);
 }
-#semester{
-  margin-left:10px;
+#semester {
+  margin-left: 10px;
 }
 form.results-container div.align-right {
   width: 100%;
@@ -260,7 +264,7 @@ form.results-container div.align-right button:hover {
 }
 @keyframes changeNavColor {
   0% {
-    background:var(--primary-color) ;
+    background: var(--primary-color);
   }
   100% {
     background-color: var(--secondary-color);
